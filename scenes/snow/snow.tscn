@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dwcvl7jeycxj0"]
+
+[ext_resource type="Script" uid="uid://c8eu0qbqro4mi" path="res://scenes/snow/snow.gd" id="1_dbfj2"]
+
+[node name="Snow" type="Node2D"]
+script = ExtResource("1_dbfj2")
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="."]

@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dilykwqy0hema"]
+
+[ext_resource type="PackedScene" uid="uid://dwcvl7jeycxj0" path="res://scenes/snow/snow.tscn" id="1_hyk8p"]
+[ext_resource type="PackedScene" uid="uid://0clj1o2kho5b" path="res://scenes/background/background.tscn" id="1_iuonh"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Background" parent="." instance=ExtResource("1_iuonh")]
+
+[node name="Snow" parent="." instance=ExtResource("1_hyk8p")]
